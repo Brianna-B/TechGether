@@ -1,0 +1,17 @@
+body {
+	text-align: center;
+	font-family: "Segoe UI", "Arial";
+	color: #E8A6B0;
+	background-color: #FFF9FB;
+}
+input{
+	font-family: "Segoe UI", "Arial";
+	color: #E8A6B0;
+
+}
+.text{
+	font-family: "Segoe UI", "Arial";
+	color: #E8A6B0;
+	text-shadow: 1px 1px #ffc0cb;
+
+}

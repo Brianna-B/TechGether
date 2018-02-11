@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FRONT PAGE</title>
+	<style>
+        body {
+	text-align: center;
+	font-family: "Segoe UI", "Arial";
+	color: #E8A6B0;
+	background-color: #FFF9FB;
+}
+input{
+	font-family: "Segoe UI", "Arial";
+	color: #E8A6B0;
+
+}
+.text{
+	font-family: "Segoe UI", "Arial";
+	color: #E8A6B0;
+	text-shadow: 1px 1px #ffc0cb;
+
+}
+
+    </style>
+</head>
+<script>
+    $$(document).ready(function(){
+    var selected;
+    $$("#submit").on("click", function(){
+    if(selected=="Student"){
+    window.location='/menteesignup';
+    } else if (selected=="Mentor")
+    window.location='/mentorSignup'});
+
+    $$("input[name='browser']").on('input', function(e){
+    selected = $(this).val();
+});
+
+    });
+</script>
+<body >
+
+<h3 class="text">What type of user are you?</h3>
+
+
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Student">
+    <option value="Mentor">
+  </datalist>
+  <input id="submit" type="submit">
+
+
+
+</body>
+</html>

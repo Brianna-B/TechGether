@@ -1,0 +1,77 @@
+body {
+  color: #E8A6B0;
+  background-color: #FFF9FB;
+}
+h1 {
+  font-family: "Segoe UI";
+  font-size: 40px;
+  color: gray;
+}
+p {
+  font-family: "Segoe UI";
+  color: #E8A6B0;
+}
+img {
+  margin-top: 70px;
+  margin-left: 80px;
+  margin-right: 80px;
+  width: 200px;
+  height: 170px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #E8A6B0;
+    color: #FFF9FB;
+}
+.topnav a {
+    font-family: "Segoe UI";
+    float: left;
+    display: block;
+    color: #FFF9FB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: white;
+    color: grey;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.topnav input[type=image] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  width: 17px;
+  height: 17px;
+}
+.topnav .search-container {
+  float: right;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.description {
+  font-family: "Segoe UI";
+  font-size: 17.5px;
+}
+td {
+  text-align: center;
+  font-size: 16px;
+}

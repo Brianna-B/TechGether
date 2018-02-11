@@ -1,0 +1,20 @@
+body {
+  margin: 200px;
+  font-family: "Segoe UI";
+  color: #E8A6B0;
+  background-color: #FFF9FB;
+  LINE-HEIGHT:30px;  
+}
+h1 {
+  font-family: "Segoe UI";
+  color: #E8A6B0;
+}
+p {
+  font-family: "Segoe UI";
+    color: #E8A6B0;
+}
+.submit {
+  background-color: #E8A6B0;
+  border: none;
+  color: white;
+}
